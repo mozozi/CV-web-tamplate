@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-group">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/icon.png" alt="Logo CV">
+                </a>
+            </div>
+            <h1>Curriculum Vitae</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#" id="toggle-rotate" title="Ubah Tampilan">
+                <i class="bi bi-arrow-repeat"></i>
+                </a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#Keahlian">Skill</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><a href="#kontak"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <img src="image/banner.png" alt="Banner">
+        <div class="banner-content">
+        </div>
+    </div> 
+    <br>
+    <section id="about" class="about-section">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Hai, saya Adhwa 👋
+                    <br><br>
+                    Sebagai seorang teknisi perbaikan komputer, laptop, dan printer, saya memiliki passion kuat dalam memecahkan masalah teknis dan mengembalikan fungsionalitas perangkat.
+                    <br><br>
+                </p>
+                <table>
+                    <tr>
+						<th>Nama</th>
+						<th>:</th>
+						<td>Adhwa Arya Hafiz</td>
+					</tr>
+                    <tr>
+                        <th> Tempat tanggal lahir</th>
+                        <th>:</th>
+                        <td>Medan, 12 Fevruari 2005</td>
+                    </tr>
+                    <tr>
+                        <th> Agama</th>
+                        <th>:</th>
+                        <td>Islam</td>
+                    </tr>
+                    <tr>
+                        <th>Alamat</th>
+                        <th>:</th>
+                        <td>Perumahan Puri anom asri, Desa Sembahe Baru, Kec.Pcancr batu</td>
+                    </tr>
+                </table>
+                </div>
+                <div class="vertical-line"></div>
+            <div class="about-image">
+                <img src="image/2.jpeg" alt="MY-JOB">
+            </div>
+        </div>
+        <br>
+    <br>
+    <div class="pendidikan">
+        <h2>Pendidikan</h2>
+        <table>
+                    <tr>
+						<th>SDIt Al-Fachran</th>
+						<th>:</th>
+						<td>2010-2016</td>
+					</tr>
+                    <tr>
+                        <th>Mts Al-Bukhari Muslim</th>
+                        <th>:</th>
+                        <td>2016-2019</td>
+                    </tr>
+                    <tr>
+                        <th>SMK Telkom Sandhy Putra Medan ( Teknik Komputer Jaringan )</th>
+                        <th>:</th>
+                        <td>2019-2022</td>
+                    </tr>
+                    <tr>
+                        <th>Universitas Pembangunan Pancabudi ( S1 Sistem Komputer )</th>
+                        <th>:</th>
+                        <td>2022 Sampai Sekarang</td>
+                    </tr>
+                </table>
+        </div>
+    </div> 
+    <br>
+    <br>
+    <section id="experience" class="experience-section">
+    <div class="container">
+        <h2>Pengalaman Kerja</h2>
+        <div class="experience-item">
+            <div class="job-title-container">
+                <div class="job-title">
+                    <h3>Version Computer</h3>
+                    <p>Periode Kerja (contoh: 2022 - Sekarang)</p>
+                </div>
+                <div class="vertical-line"></div>
+            </div>
+            <div class="job-description">
+                <ul>
+                    <li>Memperbaiki kerusakan pada hardware dan software komputer.</li>
+                    <li>Melakukan instalasi sistem operasi dan aplikasi.</li>
+                    <li>Melayani pelanggan terkait masalah teknis.</li>
+                    <li>Merakit komputer sesuai kebutuhan pelanggan.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section> 
+    <br>
+    <br>
+    <hr>  
+    <section id ="Keahlian" class="Keahlian">
+        <div class="skill">
+        <h2>Keahlian</h2>
+        <div class="card-list">
+    <div class="card">
+      <img src="image/hardware.png" alt="hardware">
+      <h3>Komputer Hardware</h3>
+      <p>Mmampu melakukan pergantian hardware.</p>
+    </div>
+
+    <div class="card">
+      <img src="image/software.png" alt="software">
+      <h3>Komputer Software</h3>
+      <p>Mneguasai Bahasa pemrograman (HTML, CSS, PHP)</p>
+    </div>
+
+    <div class="card">
+      <img src="image/ux.png" alt="grapich">
+      <h3>Desain grafis</h3>
+      <p>Menguasai dasar desain grafis</p>
+    </div>
+  </div> 
+
+    </section>
+
+
+    </div>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    const rotateButton = document.getElementById('toggle-rotate');
+    rotateButton.addEventListener('click', function(e) {
+        e.preventDefault(); // Mencegah loncat ke atas halaman
+        document.body.classList.toggle('desktop-mode-active');
+    });
+</script>
+</body>
+<footer>
+    </section>
+    <section id="kontak" class="kontak-section">
+        <br>
+        <div class ="kontak-text">
+            <h2>Hubungi Saya</h2>
+        </div>
+        <div class="contact-list">
+    <ul>
+        <li>
+            <a href="https://wa.link/jbgjmo" target="_blank">
+                <i class="bi bi-whatsapp"></i>
+                <span>Whatsapp</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://instagram.com/arya_adhwa" target="_blank">
+                <i class="bi bi-instagram"></i>
+                <span>arya_adhwa</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/mozozi" target="_blank">
+                <i class="bi bi-github"></i>
+                <span>mozozi</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adhwaarya123@gmail.com">
+                <i class="bi bi-envelope-at"></i>
+                <span>Send Email</span>
+            </a>
+        </li>
+    </ul>
+</div>
+    </section>
+</footer>
+
+</html>
